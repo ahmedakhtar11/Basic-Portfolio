@@ -7,7 +7,7 @@
 
 body {
 
-  background-color: lightgray;
+ background-image: url("../images/graybackground.jpg");
   font-family: Helvetica, Sans-Serif;
 }
 
@@ -27,11 +27,11 @@ header {
 
 h1 {
   font-family: "sans-serif", Times New Roman;
-  	font-size: 24px;
+  	font-size: 20px;
 	color: white;
     background-color: #4aaaa5;
-	padding-top: 40px;
-    padding-bottom: 10px;
+	padding-top: 30px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -43,7 +43,17 @@ h2{
 	font-family: Times New Roman, Times;
 	border-bottom: solid lightgray;
 	line-height: 200%;
+	font-size: 30px;
   
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: Times New Roman, Times;
+	border-bottom: solid lightgray;
+	line-height: 200%;
+	font-size: 25px;
+
 }
 
 
@@ -59,7 +69,7 @@ h2{
 	width: 100%;
 	top: 0;
 	position: fixed;
-	height: 80px;
+	height: 82px;
 	border-bottom-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
@@ -83,7 +93,7 @@ li{
 	float: right;
 	color: #777777;
 	list-style: none;
-	margin-top: 30px;
+	margin-top: 0px;
 	padding-left: 80px;
 
 }
@@ -131,9 +141,9 @@ nav li{
 	font-size: 20px;
 	padding-right: 5px;
 	padding-left: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 99px;
 	margin-left: 100px;
-	margin-top: 90px;
+	margin-top: 110px;
 	text-align: left;
 	border-color: #cccccc;
 	border-style: solid;
@@ -151,9 +161,9 @@ nav li{
 	font-size: 20px;
 	padding-right: 5px;
 	padding-left: 20px;
-	padding-bottom: 500px;
+	padding-bottom: 100px;
 	margin-left: 100px;
-	margin-top: 90px;
+	margin-top: 110px;
 	text-align: left;
 	border-color: #cccccc;
 	border-style: solid;
@@ -171,12 +181,14 @@ nav li{
 	font-size: 20px;
 	padding-right: 5px;
 	padding-left: 20px;
-	padding-bottom: 60px;
-	margin-left: 20px;
-	margin-top: 90px;
+	padding-bottom: 30px;
+	margin-left: 40px;
+	margin-top: 110px;
 	font-size: 16px;
 	text-align: center;
-	
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 1px;
 	
 }
 
@@ -199,14 +211,15 @@ nav li{
 
 #bio-image {
 	border: 3px solid black;
+	float: left;
+	margin-right: 10px;
 }
 
 #socialmediaicons {
 
-float: center;
+float: left;
 	text-align: left;
-	margin-left: 10px;
-	margin: 10px;
+	margin: 13px;
 
 }
 
@@ -220,9 +233,9 @@ float: center;
 	font-size: 15px;
 	padding-right: 5px;
 	padding-left: 20px;
-	padding-bottom: 70px;
+	padding-bottom: 23px;
 	margin-left: 100px;
-	margin-top: 90px;
+	margin-top: 110px;
 	text-align: left;
 	border-color: #cccccc;
 	border-style: solid;
