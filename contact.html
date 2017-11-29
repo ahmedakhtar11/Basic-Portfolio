@@ -9,22 +9,27 @@
 
 
 <body>
-		<header>
-		<div class="contentStructure">
-			<div class= "mainLogo">
-
-				<h1>Ahmed Akhtar</h1>
-			</div>
-
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-  					<li><a href="portfolio.html">Portfolio</a></li>
-  					<li class="contactLeft"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-		</header>
+  <!--HEADER-->
+    <div class="header">
+      <div class="container">
+        <!--Name/Logo-->
+          <h1 id="logo">Ahmed Akhtar</h1>
+        <!--Navigation Bar-->
+        <nav id="bar">
+          <ul>
+            <!--About-->
+            <li><a href="index.html">About</a></li>
+            <div class="verticalLine"></div>
+            <!--Portfolio-->
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <div class="verticalLine"></div>
+            <!--Contact-->
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--END OF HEADER-->
 
 
 
@@ -33,19 +38,19 @@
 
 <form>
   First name:<br>
-  <input type="text" name="Name">
-  <br> <br>
+  <input type="text" name="Name" style="width: 95%; height: 20px;">
+  <br><br>
   Last name:<br>
-  <input type="text" name="Email">
-  <br> <br>
+  <input type="text" name="Email" style="width: 95%; height: 20px;">
+  <br><br>
   Message:<br>
 
-  <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+  <textarea id="subject" name="subject" placeholder="Write something.." style="width: 95%; height: 100px;"></textarea>
 <form action="/action_page.php">
 <br>
 
 
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" class="submit">
 </form>
 
 
