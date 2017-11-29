@@ -1,0 +1,177 @@
+<style>
+	
+* {
+
+
+}
+
+body {
+
+  background-color: lightgray;
+  font-family: Helvetica, Sans-Serif;
+}
+
+header {
+
+  position: relative;
+	background-color: white;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+  color: #333;
+  width: 100%;
+	overflow: hidden;
+	height: .2;
+	margin-bottom: 35px;
+}
+
+
+h1 {
+  font-family: "sans-serif", Times New Roman;
+
+}
+
+h2{
+	color: #4aaaa5;
+	font-family: Times New Roman, Times;
+	border-bottom: solid lightgray;
+	line-height: 200%;
+  
+}
+
+
+.contentStructure {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.mainLogo {
+		position: relative;
+		float: left;
+    /*margin: 10px 15px 30px 10px;*/
+    background-color: white;
+    color: Black;
+    width: 30%;
+		text-align: left;
+}
+
+nav {
+    /*background-color: lightblue;*/
+    margin-top: 15px;
+		width: 35%;
+    overflow:hidden;
+    text-align: right;
+		float: right;
+    height: 100%;
+    margin-right: 0px;
+}
+
+nav ul {
+		margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+		display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+		color: #aaa;
+    display: block;
+    line-height: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-right: 2px Solid gray;
+
+}
+
+
+
+
+.footer2 {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background: white;
+   line-height: 50px;
+   text-align: Center;
+   border-top: 1px solid black;
+
+}
+
+
+#portfolio {
+
+	
+	background-color: white;
+	float: left;
+	width: 650px;
+	font-size: 20px;
+	padding-right: 5px;
+	padding-left: 20px;
+	padding-bottom: 70px;
+	margin-left: 100px;
+	margin-top: 0px;
+	text-align: left;
+
+}	
+
+#connectwithme {
+
+
+	color: #4aaaa5;
+	background-color: white;
+	float: left;
+    width: 270px;
+	font-size: 20px;
+	padding-right: 5px;
+	padding-left: 20px;
+	padding-bottom: 60px;
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size: 16px;
+	text-align: center;
+	
+	
+}
+
+#bio-image {
+	border: 3px solid black;
+}
+
+#socialmediaicons {
+
+float: center;
+	text-align: left;
+	margin-left: 10px;
+	margin: 10px;
+
+}
+
+
+#contactform {
+
+	background-color: white;
+	float: left;
+	width: 650px;
+	font-size: 20px;
+	padding-right: 5px;
+	padding-left: 20px;
+	padding-bottom: 70px;
+	margin-left: 100px;
+	margin-top: 0px;
+	text-align: left;
+
+
+}
+
+
+#portfoliopage{
+
+	margin-left: 70px;
+	border: 2px solid black;
+}
+
+</style>
